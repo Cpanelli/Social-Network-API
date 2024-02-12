@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "examples": {
+    "userExample": {
+      "username": "john_doe",
+      "email": "john@example.com"
+    },
+    "thoughtExample": {
+      "thoughtText": "This is a sample thought.",
+      "username": "john_doe"
+    }
+  }
+}
